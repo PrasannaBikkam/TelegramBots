@@ -62,7 +62,7 @@ public class InlineProcessingBot extends TelegramLongPollingBot {
 					keyboard.remove(i);
 				}
 				List<InlineKeyboardButton> row1 = new ArrayList<>();
-				row1.add(new InlineKeyboardButton("Confirm").setUrl("www.google.com").setCallbackData("paymentSuccess"));
+				row1.add(new InlineKeyboardButton("Confirm").setCallbackData("paymentSuccess").setUrl("https://www.dbs.com.sg/personl/mobile/paylink/index.html?tranRef=M1OInHTLkc"));
 				keyboard.add(row1);
 				List<InlineKeyboardButton> row2 = new ArrayList<>();
 				row2.add(new InlineKeyboardButton("Cancel").setCallbackData("removeKeyboard").setCallbackData("removeKeyboard"));
