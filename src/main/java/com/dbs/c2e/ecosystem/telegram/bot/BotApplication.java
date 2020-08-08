@@ -21,7 +21,7 @@ public class BotApplication {
 		
 		try {
 			tBot.registerBot(new InlineProcessingBot());
-			tBot.registerBot(new GauravJavaBot());
+//			tBot.registerBot(new GauravJavaBot());
 		}catch(TelegramApiException tae) {
 			tae.printStackTrace();
 		}
